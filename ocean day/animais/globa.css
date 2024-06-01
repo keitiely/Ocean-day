@@ -1,0 +1,48 @@
+@import url("background.css");
+@import url("header.css");
+@import url("main.css");
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text: #EDF1F7;
+  --red: #C51212;
+  --blue: #0041C2;
+  --green: #14B02D;
+  --yellow: #ffc12b;
+}
+
+body, button, a {
+  color: var(--text);
+  font: 300 1rem "Mukta", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+
+#app {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+  margin-left: 20px;
+  
+  width: 100%;
+  height: 100vh;
+  overflow:auto;
+  overflow:auto;
+  z-index: 1000;
+  }
